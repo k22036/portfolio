@@ -14,9 +14,9 @@ const Content: React.FC<Props> = ({ children, title, link }) => {
   }
 
   return (
-    <div className='container mx-auto'>
+    <div className='container mx-auto my-10'>
       <div className='grid grid-cols-1 gap-8'>
-        <div className='bg-white p-6 rounded-lg shadow-lg'>
+        <div className='bg-gray-100 p-6 rounded-lg shadow-lg'>
           <div className='flex justify-between items-center'>
             <h3 className='text-2xl font-bold mb-4'>{title}</h3>
             <button

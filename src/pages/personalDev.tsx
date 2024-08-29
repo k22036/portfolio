@@ -1,6 +1,8 @@
 import Content from '../components/Content'
 import chatHomeImg from '../images/chat-app-home.png'
 import chatAppImg from '../images/chat-app.png'
+import checkRoomHomeImg from '../images/check-room-home.png'
+import checkRoomImg from '../images/check-room-page.png'
 
 const PersonalDev = () => {
   return (
@@ -38,6 +40,26 @@ const PersonalDev = () => {
           <img src={chatAppImg} alt='chat-app' className='object-cover mb-4' />
         </Content>
 
+        <Content title='教室の使用状況を確認できるアプリケーション' link='https://github.com/k22036/check-used-room'>
+          <p className='mb-4'>使用技術</p>
+          <ul className='mb-4'>
+            <li>Next.js</li>
+          </ul>
+          <p className='mb-4'>
+            このアプリケーションは，vercelを使ってデプロイしている．
+            教室の使用状況を確認できるアプリケーションである．
+            大学に残って，勉強等がしたい時に，空いている教室がわかると便利なため作成した．
+          </p>
+          <p className='mb-4'>
+            データは，pythonでシラバスからスクレイピングした．
+            そのデータは，json形式で保存している．
+          </p>
+          <p className='mb-4'>
+            サクッと作成できたが，よくわからない文字をパースするのが少し大変だった．
+          </p>
+          <img src={checkRoomHomeImg} alt='check-room-home' className='object-cover mb-4' />
+          <img src={checkRoomImg} alt='check-room' className='object-cover mb-4' />
+        </Content>
       </section>
     </>
   )
