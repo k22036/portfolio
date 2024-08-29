@@ -3,9 +3,10 @@ import React, { useState } from 'react';
 type Props = {
   children: React.ReactNode;
   title: string;
+  link: string;
 }
 
-const Content: React.FC<Props> = ({ children, title }) => {
+const Content: React.FC<Props> = ({ children, title, link }) => {
   const [isOpen, setIsOpen] = useState(false);  // 折りたたみ状態を管理する
 
   const toggleContent = () => {
@@ -26,9 +27,17 @@ const Content: React.FC<Props> = ({ children, title }) => {
             </button>
           </div>
           {isOpen && (
-            <div className='mt-4'>
-              {children}
-            </div>
+            <>
+              <a
+                href={link}
+                target='_blank'
+                rel='noreferrer'
+                className='text-blue-500 mb-3 hover:underline'
+              >{link}</a>
+              <div className='mt-4'>
+                {children}
+              </div>
+            </>
           )}
         </div>
       </div>

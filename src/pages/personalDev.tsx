@@ -12,7 +12,7 @@ const PersonalDev = () => {
       <section className='p-10 bg-white-100'>
         {/* contents */}
 
-        <Content title='チャットアプリケーション'>
+        <Content title='チャットアプリケーション' link='https://github.com/k22036/final-chat-app'>
           <p className='mb-4'>使用技術</p>
           <ul className='mb-4'>
             <li>言語: PHP</li>
@@ -37,7 +37,7 @@ const PersonalDev = () => {
           <img src={chatHomeImg} alt='chat-home' className='object-cover mb-4' />
           <img src={chatAppImg} alt='chat-app' className='object-cover mb-4' />
         </Content>
-        
+
       </section>
     </>
   )
