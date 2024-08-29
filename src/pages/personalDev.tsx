@@ -3,6 +3,7 @@ import chatHomeImg from '../images/chat-app-home.png'
 import chatAppImg from '../images/chat-app.png'
 import checkRoomHomeImg from '../images/check-room-home.png'
 import checkRoomImg from '../images/check-room-page.png'
+import showReposImg from '../images/show-repos.png'
 
 const PersonalDev = () => {
   return (
@@ -55,10 +56,27 @@ const PersonalDev = () => {
             そのデータは，json形式で保存している．
           </p>
           <p className='mb-4'>
-            サクッと作成できたが，よくわからない文字をパースするのが少し大変だった．
+            サクッと作成できたが，よくわからない文字をパースするのが少し大変でした．
           </p>
           <img src={checkRoomHomeImg} alt='check-room-home' className='object-cover mb-4' />
           <img src={checkRoomImg} alt='check-room' className='object-cover mb-4' />
+        </Content>
+
+        <Content title='GitHubのpublicなリポジトリを確認できるアプリケーション' link='https://github.com/k22036/show-repos'>
+          <p className='mb-4'>使用技術</p>
+          <ul className='mb-4'>
+            <li>Next.js</li>
+          </ul>
+          <p className='mb-4'>
+            このアプリケーションは，GitHubのpublicなリポジトリを確認できるアプリケーションである．
+            標準では私自身のリポジトリが表示されるようになっている．
+            他のユーザーのリポジトリを確認したい場合は，プログラムを変更する必要がある．
+          </p>
+          <p className='mb-4'>
+            表示しているデータは，octokitを使って取得している．
+            アプリケーションを使うためには，GitHubのトークンが必要である．
+          </p>
+          <img src={showReposImg} alt='show-repositories' className='object-cover mb-4' />
         </Content>
       </section>
     </>
