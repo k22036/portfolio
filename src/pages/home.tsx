@@ -11,6 +11,13 @@ const Home = () => {
   return (
     <section className="py-20 bg-gray-100">
       <div className="container mx-auto">
+        <p className='mb-2'>
+          <a href="https://github.com/k22036" className='text-blue-500 hover:underline'>GitHubのプロフィール</a>
+        </p>
+        <p className='pb-10'>
+          <a href="https://github.com/k22036?tab=repositories" className='text-blue-500 hover:underline'>GitHubのリポジトリ</a>
+        </p>
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
             <div key={index} className="bg-white p-6 rounded-lg shadow-lg">
