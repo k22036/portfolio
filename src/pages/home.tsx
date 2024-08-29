@@ -9,14 +9,14 @@ const projects = [
 
 const Home = () => {
   return (
-    <section id="projects" className="py-20 bg-gray-100">
+    <section className="py-20 bg-gray-100">
       <div className="container mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
             <div key={index} className="bg-white p-6 rounded-lg shadow-lg">
               <h3 className="text-2xl font-bold mb-4">{project.title}</h3>
               <p className="mb-4">{project.description}</p>
-              <Link to={project.link} className="text-blue-500 hover:underline">View Project</Link>
+              <Link to={project.link} className="text-blue-500 hover:underline">View Projects</Link>
             </div>
           ))}
         </div>
