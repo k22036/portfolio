@@ -4,6 +4,7 @@ import chatAppImg from '../images/chat-app.png'
 import checkRoomHomeImg from '../images/check-room-home.png'
 import checkRoomImg from '../images/check-room-page.png'
 import showReposImg from '../images/show-repos.png'
+import pdfSplitImg from '../images/split-pdf.png'
 
 const PersonalDev = () => {
   return (
@@ -78,6 +79,27 @@ const PersonalDev = () => {
           </p>
           <img src={showReposImg} alt='show-repositories' className='object-cover mb-4' />
         </Content>
+
+        <Content title='PDFの結合，抽出ができるアプリケーション' link='非公開'>
+          <p className='mb-4'>使用技術</p>
+          <ul className='mb-4'>
+            <li>言語: python</li>
+            <li>フレームワーク: Flask</li>
+          </ul>
+          <p className='mb-4'>
+            このアプリケーションは，複数のPDFファイルを結合したり，PDFファイルから選択したページを抽出することができる．
+            PDFの結合，抽出の処理はサーバーで行われ，PDFのデータはバイナリとして，データベースに保存される．
+          </p>
+          <p className='mb-4'>
+            苦労した点は，PDFをwebアプリケーション上でプレビューとして表示することである．
+            結合の際は，ファイル名を並べ替え可能とし，抽出の際は，ページを選択できるようにした．
+            また，ファイルをアップロードすると，そのファイルがデータベースに保存される仕様のため，
+            後に，処理をする際にデータベースから取得してから処理をする必要がある．
+            そのため，データベースからデータを取得し，メモリ上にデータを展開してから，処理を行なっている．
+          </p>
+          <img src={pdfSplitImg} alt='pdf-split' className='object-cover mb-4' />
+        </Content>
+
       </section>
     </>
   )
