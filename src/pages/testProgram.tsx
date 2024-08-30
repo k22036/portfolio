@@ -37,6 +37,9 @@ const TestProgram = () => {
             mainブランチにpushすると，GitHub Actionsが走り，gh-pagesブランチにビルドされたファイルがpushされる．
             その後，GitHub Pagesに反映される．
           </p>
+          <p className='mb-4'>
+            このポートフォリオサイトも，Reactで書かれており，GitHub Pagesにデプロイしている．
+          </p>
         </Content>
 
         <Content title='MongoDBの検証用リポジトリ' link='https://github.com/k22036/MongoDB-test'>
