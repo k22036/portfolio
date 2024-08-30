@@ -65,6 +65,29 @@ const TeamDev = () => {
           <img src={deadlineTrackerImg} alt='check-room-home' className='object-cover mb-4' />
         </Content>
 
+        <Content title='すれ違い通信ができるサービス（開発中）' link='https://github.com/nanocom2024/nanoRelation_Server'>
+          <p className='mb-4'>使用技術</p>
+          ・クラウド
+          <ul className='mb-4'>
+            <li>言語: python</li>
+            <li>フレームワーク: Flask</li>
+            <li>データベース: MongoDB</li>
+          </ul>
+          <p className='mb-4'>
+            このアプリケーションは，すれ違い通信を実現するために開発中である．
+            すれ違い通信と共に，迷子の検知も行う予定である．
+            このサービスは，クラウド，クライアント，デバイスの3つの要素で構成されている．
+            クラウドは，ユーザーの認証やデータの検証，保存を行う．
+            クライアントは，iosのアプリケーションを想定しており，ユーザーがアプリケーションの設定を行なったり，情報の確認を行える．
+            デバイスは，ビーコンを出して，ユーザーの位置を知らせる．
+          </p>
+          <p className='mb-4'>
+            私は，主にクラウドを担当しています．
+            データベース周り，認証周り，アプリケーション処理周りを実装しています．
+            認証には，Firebase Authenticationを使用しています．
+          </p>
+        </Content>
+
       </section>
     </>
   )
