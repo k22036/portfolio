@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "./static/css/main.54050eae.css",
+    "main.js": "./static/js/main.3a886a1e.js",
+    "static/js/453.1407b060.chunk.js": "./static/js/453.1407b060.chunk.js",
+    "static/media/chat-app-home.png": "./static/media/chat-app-home.d313e16abc73823c2d0b.png",
+    "static/media/chat-app.png": "./static/media/chat-app.e4575dd8fb59b51dfdf1.png",
+    "static/media/nifupoti.png": "./static/media/nifupoti.4187a1fe5893d9275690.png",
+    "static/media/show-repos.png": "./static/media/show-repos.c7a81846abf1ee6292d8.png",
+    "static/media/deadline-tracker.png": "./static/media/deadline-tracker.d095ba47d678a679b8a3.png",
+    "static/media/split-pdf.png": "./static/media/split-pdf.015613bda17a92e91e5e.png",
+    "static/media/calc-sum-form.png": "./static/media/calc-sum-form.9a7b44a436531216c0e0.png",
+    "static/media/check-room-home.png": "./static/media/check-room-home.80b8f99dbebf40765ff3.png",
+    "static/media/check-room-page.png": "./static/media/check-room-page.c2632dee2bfc36ae9f63.png",
+    "index.html": "./index.html",
+    "main.54050eae.css.map": "./static/css/main.54050eae.css.map",
+    "main.3a886a1e.js.map": "./static/js/main.3a886a1e.js.map",
+    "453.1407b060.chunk.js.map": "./static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.54050eae.css",
+    "static/js/main.3a886a1e.js"
+  ]
+}
